@@ -1,5 +1,5 @@
 server:
-  port: 9000
+  port: 8999
 
 logging:
   level:
@@ -13,6 +13,8 @@ spring:
     oauth2:
       resourceserver:
         opaquetoken:
-          introspection-uri: http://localhost:9000/oauth2/introspect
+          introspection-uri: http://localhost:8999/oauth2/introspect
           client-id: demo-client-opaque
           client-secret: secret
+
+client-id: thirdparty-amm-trasparente
